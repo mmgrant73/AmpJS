@@ -62,6 +62,11 @@ This framework consist of seven files: (All these files are in the lib folder)
         var command = require('./lib/command');
         var server = require('./lib/server');
  ```
+ *note* Just combine all the library files into one file thus now you can just add the following instead of the three above.  There is a new example program addserver.js and addclient.js that demostrate this.
+ ```
+        var ampjs = require('./lib/ampjs');
+ ```
+ 
 2. **Then you need to create your custom command classes. Remember it must be dervied from the command class. It consists of variables that will be sent over to the server and the responds that is expected from the server.  See below to see how this is done**
  ```
  class Add extends command.Command {

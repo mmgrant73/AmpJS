@@ -64,9 +64,9 @@
 */
 
 const prompt = require('prompt');
-var controller = require('./lib/controller');
-var command = require('./lib/command');
-var server = require('./lib/server');
+var controller = require('../lib/controller');
+var command = require('../lib/command');
+var server = require('../lib/server');
 
 class _Error extends command.Command {
     constructor(receiveargs, funcallback) {

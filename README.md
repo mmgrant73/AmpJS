@@ -62,7 +62,7 @@ This framework consist of seven files: (All these files are in the lib folder)
         var command = require('./lib/command');
         var server = require('./lib/server');
  ```
- *note* Just combine all the library files into one file thus now you can just add the following instead of the three above.  There is a new example program addserver.js and addclient.js that demostrate this.
+ *note* Just combine all the library files into one file thus now you can just add the following instead of the three above.  There is a new example program addserver.js and addclient.js that demostrate this.  Futhermore, I published it at npm so now you can install by using the following at the terminal:  npm install ampjs
  ```
         var ampjs = require('./lib/ampjs');
  ```
